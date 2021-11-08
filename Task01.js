@@ -10,7 +10,7 @@ function res(str){
 }
 console.log(res('Table'));
 
-function res(str){
+function res(str){queueMicrotask(q)
 
     const a = str.padEnd(5, 'new');
     const b = str.padEnd(8, 'new');
